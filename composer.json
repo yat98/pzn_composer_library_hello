@@ -1,0 +1,19 @@
+{
+    "name": "yat98/composer-library",
+    "description": "Library composer hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "ComposerLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yat98",
+            "email": "hidayatchandra08@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
